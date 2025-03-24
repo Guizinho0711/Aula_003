@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Paciente</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>Dados do paciente</legend>
+        <label>Nome do paciente: <input type="text" name="nome"></label><br><br>
+        <label>Registro hospitalar: <input type="text" name="registro"></label><br><br>
+        <label>Data de inclusão: <input type="date" name="data_inclusao"></label><br><br>
+        <label>Data de nascimento: <input type="date" name="data_nascimento"></label><br><br>
+        <label>E-mail: <input type="email" name="email"></label><br><br>
+
+        Gênero:<br>
+        <label><input type="radio" name="genero" value="feminino"> Feminino</label><br>
+        <label><input type="radio" name="genero" value="masculino"> Masculino</label><br><br>
+
+        <label>Raça declarada:
+            <select name="raca">
+                <option value="">Selecione</option>
+                <option value="branca">Branca</option>
+                <option value="negra">Negra</option>
+                <option value="parda">Parda</option>
+                <option value="amarela">Amarela</option>
+                <option value="indigena">Indígena</option>
+                <option value="desconhecida">Desconhecida</option>
+            </select>
+        </label><br><br>
+
+        Como ficou sabendo do estudo:<br>
+        <label><input type="checkbox" name="fonte" value="convidado"> Convidado</label><br>
+        <label><input type="checkbox" name="fonte" value="internet"> Internet</label><br>
+        <label><input type="checkbox" name="fonte" value="amigos"> Amigos</label><br>
+        <label><input type="checkbox" name="fonte" value="familiares"> Familiares</label><br>
+        <label><input type="checkbox" name="fonte" value="outros"> Outros</label><br><br>
+
+        <button type="submit">Enviar</button>
+    </fieldset>
+
+<footer>Guilherme - 2025</footer>
+</body>
+</html>
